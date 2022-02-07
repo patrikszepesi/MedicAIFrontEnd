@@ -33,7 +33,7 @@ app
 
     server.listen(8080, (err) => {
       if (err) throw err;
-      console.log("> Ready on http://localhost:8000");
+      console.log("> Front end Ready on http://localhost:8080");
     });
   })
   .catch((err) => {
