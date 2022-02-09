@@ -4,10 +4,10 @@ import toast, { Toaster } from 'react-hot-toast';
 import { Context } from "../../../context";
 import { useRouter } from "next/router";
 import { makeStyles } from '@material-ui/core/styles';
-import { Image } from '../../../components/atoms';
-import { LearnMoreLinkPlain } from '../../../components/atoms';
-import { SectionHeader } from '../../../components/molecules';
-import { HeroShapedAuth } from '../../../components/organisms';
+import { Image } from '../../components/atoms';
+import { LearnMoreLinkPlain } from '../../components/atoms';
+import { SectionHeader } from '../../components/molecules';
+import { HeroShapedAuth } from '../../components/organisms';
 import { Typography, Grid, Button, TextField } from '@material-ui/core';
 import registerSvg from '../../../public/assets/register.svg';
 

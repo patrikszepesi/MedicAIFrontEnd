@@ -18,7 +18,7 @@ import {
 } from '@material-ui/core';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import MenuIcon from '@material-ui/icons/Menu';
-import { Image, DarkModeToggler } from '../../../../../components/atoms';
+import { Image, DarkModeToggler } from '../../../../components/atoms';
 import { Context } from "../../../../../context";
 
 

@@ -2,9 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { useMediaQuery, Grid } from '@material-ui/core';
-import { LearnMoreLink, Image } from '../../../../../components/atoms';
-import { SectionHeader } from '../../../../../components/molecules';
-import { CardBase } from '../../../../../components/organisms';
+import { LearnMoreLink, Image } from '../../../../components/atoms';
+import { SectionHeader } from '../../../../components/molecules';
+import { CardBase } from '../../../../components/organisms';
 
 const useStyles = makeStyles(theme => ({
   logo: {

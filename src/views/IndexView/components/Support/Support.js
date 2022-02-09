@@ -10,7 +10,7 @@ import {
   Avatar,
   colors,
 } from '@material-ui/core';
-import { SectionHeader, IconAlternate } from '../../../../../components/molecules';
+import { SectionHeader, IconAlternate } from '../../../../components/molecules';
 
 const useStyles = makeStyles(theme => ({
   listItemAvatar: {

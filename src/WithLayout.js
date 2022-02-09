@@ -4,6 +4,7 @@ import { Paper } from '@material-ui/core';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import getTheme from './theme';
 
+//animate on scroll
 import AOS from 'aos';
 
 export const useDarkMode = () => {
@@ -33,7 +34,7 @@ export const useDarkMode = () => {
   return [themeMode, themeToggler, mountedComponent];
 };
 
-export default function WithLayout({ component: Component, layout: Layout, item:Item, ...rest }) {
+export default function WithLayout({ component: Component, layout: Layout, ...rest }) {
   React.useEffect(() => {
     // Remove the server-side injected CSS.
     const jssStyles = document.querySelector('#jss-server-side');
@@ -60,7 +61,7 @@ export default function WithLayout({ component: Component, layout: Layout, item:
       <CssBaseline />
       <Paper elevation={0}>
         <Layout themeMode={themeMode} themeToggler={themeToggler}>
-          <Component item={Item} themeMode={themeMode} {...rest} />
+          <Component themeMode={themeMode} {...rest} />
         </Layout>
       </Paper>
     </ThemeProvider>

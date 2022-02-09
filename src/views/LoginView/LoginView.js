@@ -1,13 +1,12 @@
 import { useState, useContext, useEffect } from "react";
 import axios from "axios";
-import { SyncOutlined } from "@ant-design/icons";
 import { Context } from "../../../context";
 import { useRouter } from "next/router";
 import { makeStyles } from '@material-ui/core/styles';
-import { Image } from '../../../components/atoms';
-import { LearnMoreLinkPlain } from '../../../components/atoms';
-import { SectionHeader } from '../../../components/molecules';
-import { HeroShapedAuth } from '../../../components/organisms';
+import { Image } from '../../components/atoms';
+import { LearnMoreLinkPlain } from '../../components/atoms';
+import { SectionHeader } from '../../components/molecules';
+import { HeroShapedAuth } from '../../components/organisms';
 import { Typography, Grid, Button, TextField } from '@material-ui/core';
 import toast, { Toaster } from 'react-hot-toast';
 import loginSvg from '../../../public/assets/login.svg';

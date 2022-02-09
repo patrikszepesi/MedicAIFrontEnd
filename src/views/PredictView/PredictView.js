@@ -1,10 +1,10 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Divider } from '@material-ui/core';
-import { Section, SectionAlternate } from '../../../components/organisms';
+import { Section, SectionAlternate } from '../../components/organisms';
 import { Application} from './components';
 
-import UserRoute from "../../../components/routes/UserRoute";
+import UserRoute from "../../../routes/UserRoute";
 
 
 

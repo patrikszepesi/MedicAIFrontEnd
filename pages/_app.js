@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Provider } from "../context";
 import Head from 'next/head';
-import Swiper from 'swiper/bundle';
 import toast, { Toaster } from 'react-hot-toast';
 
 

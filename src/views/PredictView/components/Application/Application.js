@@ -1,11 +1,10 @@
 import React from 'react';
 import{ useState } from "react";
 import PropTypes from 'prop-types';
-import Resizer from 'react-image-file-resizer';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 import { useMediaQuery, Grid, Typography, TextField, Button } from '@material-ui/core';
-import { IconText } from '../../../../../components/atoms';
-import { SectionHeader } from '../../../../../components/molecules';
+import { IconText } from '../../../../components/atoms';
+import { SectionHeader } from '../../../../components/molecules';
 import axios from "axios";
 
 const useStyles = makeStyles(theme => ({

@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { makeStyles, useTheme } from '@material-ui/core/styles';
 
 import { useMediaQuery, Grid, Typography, Button } from '@material-ui/core';
-import { Icon } from '../../../../../components/atoms';
-import { SectionHeader } from '../../../../../components/molecules';
-import { CardPricingStandard } from '../../../../../components/organisms';
+import { Icon } from '../../../../components/atoms';
+import { SectionHeader } from '../../../../components/molecules';
+import { CardPricingStandard } from '../../../../components/organisms';
 
 const useStyles = makeStyles(theme => ({
   fontWeight900: {
